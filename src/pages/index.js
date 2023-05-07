@@ -9,16 +9,18 @@ import {
   ProjectsSection,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
+import { CustomCursor } from "gatsby-theme-portfolio-minimal/src/components/Cursor";
 
 export default function IndexPage() {
   return (
     <>
-      <Seo title="Gatsby Starter for Portfolio Minimal" />
+      <Seo title="Kreena Totala | Software Developer" />
       <Page useSplashScreenAnimation>
+        <CustomCursor/>
         <HeroSection sectionId="hero" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
         <InterestsSection sectionId="details" heading="Details" />
+        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
+        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
         <ProjectsSection sectionId="features" heading="Built-in Features" />
         <ContactSection sectionId="github" heading="Issues?" />
       </Page>
