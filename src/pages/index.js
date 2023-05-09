@@ -18,10 +18,10 @@ export default function IndexPage() {
       <Page useSplashScreenAnimation>
         <CustomCursor/>
         <HeroSection sectionId="hero" />
-        <InterestsSection sectionId="details" heading="Details" />
-        <AboutSection sectionId="about" heading="About Portfolio Minimal" />
-        <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Medium']} />
-        <ProjectsSection sectionId="features" heading="Built-in Features" />
+        <InterestsSection sectionId="details" heading="Skills" />
+        <AboutSection sectionId="about" heading="About" />
+        <ArticlesSection sectionId="articles" heading="Experiences" sources={['Medium']} />
+        <ProjectsSection sectionId="features" heading="Projects" />
         <ContactSection sectionId="github" heading="Issues?" />
       </Page>
     </>
