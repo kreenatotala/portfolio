@@ -9,6 +9,4 @@ I am a Data Science and Behavioral Neuroscience student at Northeastern Universi
 
 My goal is to use my problem-solving skills and my passion for programming to integrate these interests and create effective and elgant software solutions that revolutionize our understanding of the world around us.  
 
-Some of my other interests are science fiction, digital art & design, traveling, reading, baking, and music. See what cool stuff I'm currently up to <a href="https://kreenatotala.com/now" ><u>here</u></a> :)
-
-Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="nofollow noopener noreferrer" aria-label="External Link"><u>Charles Deluvio</u></a> on Unsplash
+Some of my other interests are science fiction, digital art & design, traveling, reading, baking, and music. See what cool stuff I'm currently up to <a href="/now" ><u>here</u></a> :)

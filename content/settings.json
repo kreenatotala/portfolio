@@ -1,29 +1,30 @@
 {
   "siteMetadata": {
     "language": "en",
-    "siteUrl": "https://gatsby-starter-portfolio-minimal-theme.netlify.app/",
-    "title": "Gatsby Starter for Portfolio Minimal",
+    "siteUrl": "https://kreenatotala.com/",
+    "thumbnail": "../content/images/logo.png",
+    "title": "Kreena Totala | Software Developer",
     "titleTemplate": "%s · Portfolio Minimal",
-    "description": "A Gatsby Starter Project to easily get started with Portfolio Minimal theme.",
+    "description": "Kreena Totala's portfolio page, showing all of her software development and engineering projects",
     "author": "Kreena Totala",
-    "avatar": "../content/images/gatsby.png",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "avatar": "../content/images/logo.png",
+    "bio": "Software Developer from Boston. MA.",
     "social": {
       "behance": "https://behance.com",
-      "github": "https://github.com/konstantinmuenster",
+      "github": "https://github.com/kreenatotala",
       "medium": "https://konstantinmuenster.medium.com",
-      "linkedin": "https://www.linkedin.com/in/konstantin-muenster/",
-      "mail": "mailto:mail@konstantin.digital"
+      "linkedin": "https://www.linkedin.com/in/kreena-totala-7358441b8/",
+      "mail": "mailto:totala.k@northeastern.edu"
     }
   },
   "siteConfiguration": {
-    "logo": "../../static/logo.png",
+    "logo": {"image":"../content/images/logo.png"},
     "navigation": {
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Experience", "url": "/#experience" },
         { "label": "Projects", "url": "/#projects" },
-        { "label": "Now", "url": "/#github" }
+        { "label": "Now", "url": "/now" }
       ],
       "ctaButton": {
         "openNewTab": true,
@@ -31,8 +32,8 @@
         "url": "/resume.pdf"
       },
       "footer": [
-        { "label": "Privacy", "url": "/privacy" },
-        { "label": "Imprint", "url": "/imprint" }
+        { "label": "Now", "url": "/now" },
+        { "label": "Contact", "url": "mailto:totala.k@northeastern.edu" }
       ]
     },
     "featureToggles": {

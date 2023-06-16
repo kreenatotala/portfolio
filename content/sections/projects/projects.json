@@ -2,40 +2,104 @@
   "projects": [
     {
       "visible": true,
-      "category": "🕹️ EASY AND QUICK SETUP",
-      "title": "Add content and deploy!",
-      "description": "Get up and running within minutes. Just install the starter, add your content, deploy it, and there you go! This starter works seamlessly with hosts like Netlify. Photo by Clément H on Unsplash.",
-      "tags": ["Content Integration", "Ready-2-Deploy"],
+      "category": "🪄 DATA VISUALIZATION",
+      "title": "Project LEARN",
+      "description": "Developed an informative and responsive visualization tool, LEARN, in collaboration with a Northeastern club called Firstbyte to identify public schools in Massachusetts that do not provide equal access to computer science education.",
+      "tags": ["Tableau", "Databases", "Website Development"],
       "image": {
-        "src": "../../images/clement-h-95YRwf6CNw8-unsplash.jpg",
-        "alt": "Quick Setup",
-        "linkTo": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+        "src": "../../images/LEARN.png",
+        "alt": "Extendable Layout",
+        "linkTo": "https://ds4200-learn.netlify.app/assets/DS4200_Project.pdf"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/DS4200-S22/final-project-learn"
         },
         {
           "type": "external",
-          "url": "https://www.gatsbyjs.org/docs/mdx/writing-pages/"
+          "url": "https://ds4200-learn.netlify.app/"
         }
       ]
     },
     {
       "visible": true,
-      "category": "🧰 EXTENDABLE LAYOUT",
-      "title": "Add more sections!",
-      "description": "The starter includes predefined sections as well as a template for new, custom sections. Moreover, you can add new projects to this section without additional coding. Photo by Kelly Sikkema on Unsplash.",
-      "tags": ["Custom Sections", "Easy-2-Use"],
+      "category": "💻 DATABASE APPLICATION",
+      "title": "Public Restroom Rating App",
+      "description": "Designed and developed a full stack database application with a partner using MySQL and Java. Allows users to login to create and edit entries, as well as rate public restrooms in the Boston area.",
+      "tags": ["SQL", "Java Swing"],
       "image": {
-        "src": "../../images/kelly-sikkema-Hl3LUdyKRic-unsplash.jpg",
+        "src": "../../images/DB.png",
+        "alt": "Quick Setup",
+        "linkTo": "https://github.com/kreenatotala/CS3200-Public-Restroom-Rating-Application"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/kreenatotala/CS3200-Public-Restroom-Rating-Application"
+        }, 
+        {
+          "type": "external",
+          "url": "https://docs.google.com/document/d/1HEAK2DU8LtyAL10deww1AqM67lL85QRJ1tkxDPZxa0M/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "📊 MACHINE LEARNING",
+      "title": "Predicting Depression, Anxiety, and Stress",
+      "description": "Investigated trends and implemented supervised machine learning techniques using Python libraries and R Studio. Collaborated with a team to successfully build a model that can predict mental illness with some accuracy. Identified demographic and behavioral variables that can be potential indicators of mental illness.",
+      "tags": ["Supervised ML", "Python", "R Studio"],
+      "image": {
+        "src": "../../images/ML 2.png",
         "alt": "Extendable Layout"
       },
       "links": [
         {
           "type": "github",
-          "url": "https://github.com/konstantinmuenster/gatsby-starter-portfolio-minimal-theme"
+          "url": "https://github.com/kreenatotala/DS5110-Prediciting-Depression-Anxiety-and-Stress"
+        },
+        {
+          "type": "external",
+          "url": "https://docs.google.com/document/d/1CcUcwsSEgbyrm4sbLf2rD9oOUHsfsNGLLCGFqk698bc/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "visible": true,
+      "category": "🏠 NoSQL DATABASE APPLICATION",
+      "title": "Sublet Search App",
+      "description": "Designed and developed an application to help users find off-campus housing near Northeastern's campus in collaboration with teammates. Used MongoDB to store a collection of users and a collection of listings. Users can store preferences such as location, price range, facilities, etc. and the app would reccommend listings based on these requirements. ",
+      "tags": ["MongoDB", "NoSQL", "Flask", "Python"],
+      "image": {
+        "src": "../../images/boston.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/vbhagat02/ds4300_project"
+        },
+        {
+          "type": "external",
+          "url": "https://docs.google.com/document/d/1mIQhg3K5R4NiT_EYC0Fd-UMPt4mxFGPqAegYEVttriM/edit?usp=sharing"
+        }
+      ]
+    }, 
+    {
+      "visible": true,
+      "category": "🧠 NEUROSCIENCE RESEARCH",
+      "title": "Pediatic ADHD White Matter Analysis",
+      "description": "Investigated the poorly understood neurological underpinnings of ADHD at Stony Brook University. Used the software DSI Studio and MATLAB to analyze and compare the integrity of specific thalamocortical white matter tracts. Placed top at multiple local research competitions and reached national and international levels of distinction.",
+      "tags": ["Neuroscience", "Research", "DSI Studio", "MATLAB"],
+      "image": {
+        "src": "../../images/brain.png",
+        "alt": "Extendable Layout"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://drive.google.com/file/d/1MvVyTHgD0iOdufkRy5qRGLXJXgQCBLcs/view?usp=sharing"
         }
       ]
     }
@@ -43,6 +107,6 @@
   "button": {
     "visible": true,
     "label": "Visit on Github",
-    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+    "url": "https://github.com/kreenatotala"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "intro": "Hello! My name is",
+  "intro": "",
   "heroPhoto": {
-    "src": "../../images/lego-dummy.png",
+    "src": "../../images/pfp.jpg",
     "alt": "My Photo"
   },
   "title": "Kreena Totala",

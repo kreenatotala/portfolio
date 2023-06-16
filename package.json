@@ -16,7 +16,11 @@
     "gatsby": "^5.0.1",
     "gatsby-theme-portfolio-minimal": "latest",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "css-loader": "^1.0.0",
+    "css-modules-typescript-loader": "^2.0.1",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1"
   },
   "author": "Konstantin Münster <mail@konstantin.digital>",
   "license": "0BSD",
