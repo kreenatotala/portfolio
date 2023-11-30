@@ -1,8 +1,18 @@
 ---
-sectionId: privacy
+sectionId: now
 ---
 
-Your privacy is important to me. It is my, YOURNAME, policy to respect your privacy regarding any information I may collect from you across my website, YOURDOMAIN.
+👩‍💻 Finishing up my second co-op as a Software Engineer at Chewy 🐾
+
+👩‍🎓 Preparing for my final semester as an undergraduate at Northeastern University 
+
+📖 Learning Unsupervised Machine Learning, hope to make a Spotify playlist reccommendation system 
+
+📚 Reading Intercepts, Dune, Light From Uncommon Stars
+
+🎮 Playing Spiderman 2 
+
+<!-- Your privacy is important to me. It is my, YOURNAME, policy to respect your privacy regarding any information I may collect from you across my website, YOURDOMAIN.
 
 I only ask for personal information when I truly need it to provide a service to you. I collect it by fair and lawful means, with your knowledge and consent. I also let you know why I am collecting it and how it will be used.
 
@@ -16,4 +26,4 @@ You are free to refuse my request for your personal information, with the unders
 
 Your continued use of my website will be regarded as acceptance of my practices around privacy and personal information. If you have any questions about how I handle user data and personal information, feel free to contact me.
 
-This policy is effective as of 22 September 2019. It has been generated with the help of GetTerms.io.
+This policy is effective as of 22 September 2019. It has been generated with the help of GetTerms.io. -->
