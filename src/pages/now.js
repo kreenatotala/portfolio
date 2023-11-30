@@ -6,7 +6,7 @@ export default function Now() {
     <>
         <Seo title="Now" useTitleTemplate={true} noIndex={true} />
         <Page>
-          <LegalSection sectionId="privacy" heading="What am I doing now?" />
+          <LegalSection sectionId="now" heading="What am I doing now?" />
         </Page>
     </>
 
