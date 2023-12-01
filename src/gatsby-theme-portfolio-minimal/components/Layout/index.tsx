@@ -1,9 +1,11 @@
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/700.css';
-import '../../globalStyles/global.css';
+import '../../globalStyles/prism.css';
 import '../../globalStyles/theme.css';
+import '../../globalStyles/global.css'
+
 import React, { useLayoutEffect, useState } from 'react';
-// import { Helmet } from 'gatsby-theme-portfolio-minimal/src/components/Layout';
+import { Helmet } from 'react-helmet';
 import { useLocation } from '@reach/router';
 import { Theme, useGlobalState } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/context';
 import { SplashScreen } from '../../../../node_modules/gatsby-theme-portfolio-minimal/src/components/SplashScreen';
@@ -32,18 +34,18 @@ export function Layout(props: LayoutProps): React.ReactElement {
 
     const splashScreenView = (
         <>
-            {/* <Helmet bodyAttributes={{ 'data-theme': Theme.Light }} /> */}
+            <Helmet bodyAttributes={{ 'data-theme': Theme.Light }} />
             <SplashScreen />
         </>
     );
 
     const layoutView = (
         <>
-            {/* <Helmet
+            <Helmet
                 bodyAttributes={{
                     'data-theme': darkModeEnabled ? Theme.Dark : Theme.Light,
                 }}
-            /> */}
+            />
             <div className={"Layout"}>
                 <Header />
                 <main>{props.children}</main>

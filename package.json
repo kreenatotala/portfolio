@@ -45,5 +45,8 @@
     "animations",
     "dark-mode",
     "gdpr-compliant"
-  ]
+  ],
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.9"
+  }
 }
