@@ -1,7 +1,6 @@
 import React from "react";
 import {
   AboutSection,
-  ArticlesSection,
   ContactSection,
   HeroSection,
   InterestsSection,
@@ -9,6 +8,7 @@ import {
   ProjectsSection,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
+import { ArticlesSection } from "../gatsby-theme-portfolio-minimal/sections/Articles";
 // import { CustomCursor } from "gatsby-theme-portfolio-minimal/src/components/Cursor";
 
 export default function IndexPage() {
@@ -20,7 +20,7 @@ export default function IndexPage() {
         <HeroSection sectionId="hero" />
         <InterestsSection sectionId="details" heading="Skills" />
         <AboutSection sectionId="about" heading="About" />
-        <ArticlesSection sectionId="articles" heading="Experience" sources={['blog']} />
+        <ArticlesSection sectionId="articles" heading="Experience" />
         {/* <div style={{margin: '0 auto 8rem auto;', padding: 'var(--page-padding)'}}>
           <h1>Experience</h1>
           <ul>

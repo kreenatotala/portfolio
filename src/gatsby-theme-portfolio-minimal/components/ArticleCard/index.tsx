@@ -3,13 +3,13 @@ import { Link } from 'gatsby';
 import SkeletonLoader from 'tiny-skeleton-loader-react';
 import { ImageObject } from 'gatsby-theme-portfolio-minimal/src/types';
 import { Theme, useGlobalState } from 'gatsby-theme-portfolio-minimal/src/context';
-import * as classes from 'gatsby-theme-portfolio-minimal/src/components/ArticleCard';
+import * as classes from './style.module.css';
 
 export interface ArticleCard {
     image?: ImageObject;
     category: string;
     title: string;
-    publishedAt: Date;
+    publishedAt: string;
     readingTime?: string;
     link: string;
 }
@@ -26,40 +26,40 @@ export function ArticleCard(props: ArticleCardProps): React.ReactElement {
     // Needed to differentiate between external and internal links (whether or not we use Gatsby Link)
     const absoluteUrl = props.data.link.indexOf('://') > 0 || props.data.link.indexOf('//') === 0;
 
-    // return  (
-    //     <article
-    //         className={classes.Card}
-    //         style={darkModeEnabled ? { border: '0.125rem solid var(--primary-color)' } : undefined}
-    //     >
-    //         {props.showBanner && (
-    //             <div className={classes.Banner}>
-    //                 {props.data.image && props.data.image.src && (
-    //                     <GatsbyImage
-    //                         className={classes.ImageWrapper}
-    //                         imgClassName={classes.Image}
-    //                         objectFit={props.data.image.objectFit || 'cover'}
-    //                         image={props.data.image.src.childImageSharp.gatsbyImageData}
-    //                         alt={props.data.image.alt || props.data.title}
-    //                     />
-    //                 )}
-    //             </div>
-    //         )}
-    //         <div className={classes.DescriptionWrapper}>
-    //             <span className={classes.Category}>
-    //                 <u>{props.data.category}</u>
-    //             </span>
-    //             <h4 className={classes.Title}>{props.data.title}</h4>
-    //             <div className={classes.Details}>
-    //                 {formatDate(props.data.publishedAt)}
-    //                 {props.data.readingTime && <span className={classes.ReadingTime}>{props.data.readingTime}</span>}
-    //             </div>
-    //         </div>
-    //     </article>
-    // );
-
-    return (
-        <div></div>
+    return  (
+        <article
+            className={classes.Card}
+            style={darkModeEnabled ? { border: '0.125rem solid var(--primary-color)' } : undefined}
+        >
+            {props.showBanner && (
+                <div className={classes.Banner}>
+                    {props.data.image && props.data.image.src && (
+                        <GatsbyImage
+                            className={classes.ImageWrapper}
+                            imgClassName={classes.Image}
+                            objectFit={props.data.image.objectFit || 'cover'}
+                            image={props.data.image.src.childImageSharp.gatsbyImageData}
+                            alt={props.data.image.alt || props.data.title}
+                        />
+                    )}
+                </div>
+            )}
+            <div className={classes.DescriptionWrapper}>
+                <span className={classes.Category}>
+                    <u>{props.data.category}</u>
+                </span>
+                <h4 className={classes.Title}>{props.data.title}</h4>
+                <div className={classes.Details}>
+                    <p>{props.data.publishedAt}</p>
+                    {props.data.readingTime && <span className={classes.ReadingTime}>{props.data.readingTime}</span>}
+                </div>
+            </div>
+        </article>
     );
+
+    // return (
+    //     <div></div>
+    // );
 
 }
 

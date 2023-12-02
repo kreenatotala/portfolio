@@ -9,7 +9,7 @@
     box-shadow: 0 5px 15px var(--box-shadow-color);
     border-radius: var(--border-radius);
     background: var(--card-color);
-    white-space: normal;
+    white-space: pre-wrap;
     transition: box-shadow 0.3s ease-out;
 }
 
